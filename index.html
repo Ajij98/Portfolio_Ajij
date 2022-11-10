@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/nav_icon/pie-chart.png" type="image/png">
+        <title>Portfolio - Ajij</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- Fontawsome v4.7.0 -->
+ 	    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+        <!--Start (For Smooth Scroll Behaviour) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+		</script>
+		<!-- End -->
+
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h font-weight-bold"  href="index.html"><img src="img/nav_icon/pie-chart.png" alt="nav_icon" class="mb-1" width="30"> PORT<span style="color: #F8B600;">FOLIO</span></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#about" >About</a></li>
+								<li class="nav-item"><a class="nav-link" href="#about" >Skills</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#services">Services</a>
+								<li class="nav-item"><a class="nav-link" href="#projects" >Projects</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="home_left_img">
+								<img src="img/profile/profile.png" alt="profile_banner">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="banner_content">
+								<h5>Hi! This is me</h5>
+								<h2>Md Abdul Ajij</h2>
+								<p class="mb-3 pb-0"><sup><i class="fa fa-quote-left"></i></sup> I'm a <b>Full-Stack web developer</b> responsible for developing and maintaining applications using the latest web technologies. <sub><i class="fa fa-quote-right"></i></sub></p>
+
+								<a href="https://web.facebook.com/profile.php?id=100009803343391" title="facebook" target="_blank"><i class="fa fa-facebook mr-3" style="background-color: #7B7977; color: white; border-radius: 50%; padding-top: 6px;padding-bottom: 6px;padding-right: 10px;padding-left: 10px;"></i></a>
+
+								<a href="https://www.linkedin.com/in/abdul-ajij-025930252/" title="linkedin" target="_blank"><i class="fa fa-linkedin mr-3" style="background-color: #7B7977; color: white; border-radius: 50%; padding-top: 7px;padding-bottom: 7px;padding-right: 8px;padding-left: 8px;"></i></a>
+
+								<a href="https://github.com/Ajij98?tab=repositories" title="github" target="_blank"><i class="fa fa-github mr-3" style="background-color: #7B7977; color: white; border-radius: 50%; padding-top: 7px;padding-bottom: 7px;padding-right: 8px;padding-left: 8px;"></i></a>
+								<br><br>
+
+								<a class="genric-btn primary radius" href="#contact">Hire me</a> <a class="genric-btn success radius" href="cv/Md Abdul Ajij - Resume.pdf" target="_blank">Download CV</a>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================ About and Skills Area =================-->
+        <section class="welcome_area p_120" id="about">
+        	<div class="container">
+        		<div class="row welcome_inner">
+
+        			<!-- Start About -->
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Me</h4>
+        					<p class="text-justify mb-0 pb-0">It's Me, Ajij Here. I'm a Full-Stack Web Developer and currently working with HTML, CSS, Bootstrap, JavaScript, React JS, jQuery, PHP, Laravel, MySQL and some other web development Technologies. I just love to develop websites. It gives me joy and in my leisure time I love to learn new things regularly.Till Now, I've completed more than 20 <a href="#projects">projects</a>.
+
+							<br><br>
+
+							Currently, I'm Developing my skill on Fullstack web development (React JS + Laravel) because I'll love to build my future career in web development field. As I'm a quick learner, I believe it won't take longer to be a full-stack web developer.
+
+
+							</p>
+
+							<hr>
+
+							<div class="card" style="border-left: 3px solid #F8B600;">
+								<div class="card-body" style="border-radius: 10px;">
+									<p class="text-uppercase font-weight-bold mb-4" style="font-size: 16px;">Contact</p>
+									<div>
+										<p class="mb-2"><i class="fa fa-user-circle-o mr-3"></i> Md Abdul Ajij</p>
+										<p class="mb-2"><i class="fa fa-envelope mr-3"></i> abdulajij.pciu@gmail.com</p>
+										<p class="mb-2"><i class="fa fa-phone mr-3"></i><a href="tel:01831144838" style="color: #777777;">(+88) 01831-144838 <u>Click to call</u></a> </p>
+										<p class="mb-2"><i class="fa fa-map-marker mr-3"></i> Al-Falah Goli, 2 No. Gate, Chattogram, Bangladesh</p>
+										<p class="mb-2"><i class="fa fa-facebook-square mr-3"></i> <a href="https://web.facebook.com/profile.php?id=100009803343391" target="_blank">Facebook</a></p>
+										<p class="mb-2"><i class="fa fa-linkedin mr-3"></i> <a href="https://www.linkedin.com/in/abdul-ajij-025930252/" target="_blank">LinkedIn</a></p>
+										<p class="mb-2"><i class="fa fa-github mr-3"></i> <a href="https://github.com/Ajij98?tab=repositories" target="_blank">GitHub</a></p>
+									</div>
+								</div>
+							</div>
+
+							<br>
+
+							<div class="card" style="border-left: 3px solid #F8B600;">
+								<div class="card-body" style="border-radius: 10px;">
+									<p class="text-uppercase font-weight-bold mb-4" style="font-size: 16px;">Education</p>
+										<div class="float-right">
+											<a href="https://www.portcity.edu.bd/" target="_blank"><img src="img/nav_icon/PCIU.png" alt="pciu_logo" width="45"></a>
+										</div>
+										<div class="">
+											<a href="https://www.portcity.edu.bd" target="_blank" class="text-dark"><strong>Port City International University, Bangladesh</strong></a>
+											<p class="mb-0 pb-0">Bachelor of Science - BS, Computer Engineering</p>
+											<p class="mb-0 pb-0"><small>Jan 2017 - Dec 2020</small></p>
+										</div>
+								</div>
+							</div>
+
+							<br>
+
+							<div class="card" style="border-left: 3px solid #F8B600;">
+								<div class="card-body" style="border-radius: 10px;">
+									<p class="text-uppercase font-weight-bold mb-4" style="font-size: 16px;">Interests</p>
+									<div>
+										<img src="img/nav_icon/volunteering.png" width="20" style="color: #7B7977;"> <span class="ml-1 mr-4">Volunteering</span> <img src="img/nav_icon/travelling.png" width="20"><span class="ml-1 mr-4">Travelling</span> 
+										<img src="img/nav_icon/painting.png" width="20"> <span class="ml-1 mr-4">Painting</span> 
+										<img src="img/nav_icon/sports.png" width="20"> <span class="ml-1 mr-4">Sports</span>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        			<!-- End About -->
+
+        			<!-- Start Skills -->
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<h3>Skills</h3>
+        					<div class="skill_main">
+
+        						<br>
+
+        						<p class="mb-2" style="font-size: 15px;"><strong>Front-end Technology</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">HTML</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">CSS</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Bootstrap</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">jQuery</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">JavaScript</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">React JS</span>
+
+
+								<p class="mt-3 mb-2" style="font-size: 15px;"><strong>Development Languages</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">PHP</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Laravel</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">JAVA</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">C#</span>
+
+								<p class="mt-3 mb-2" style="font-size: 15px;"><strong>Database</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">MySQL</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">SQL Server</span>
+
+
+								<p class="mt-3 mb-2" style="font-size: 15px;"><strong>Technical Skills</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Rest APIs</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Git</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Testing, Debugging</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Responsive Design</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Document Object Model (DOM)</span>
+
+
+								<p class="mt-3 mb-2" style="font-size: 15px;"><strong>Soft Skills</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Problem Solving</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Team Work</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Time Management</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Communication</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Adaptability</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Creativity</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Patience</span>
+								<span class="badge badge-pill mb-3" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">work Ethic</span>
+
+								<p class="mt-3 mb-2" style="font-size: 15px;"><strong>Web Servers</strong></p>
+        						<span class="badge badge-pill mb-3 mt-1" style="background-color: #525659; color: white; padding: 9px 14px; font-weight: normal; font-size: 13px;">Apache HTTP Server</span>
+
+							</div>
+        				</div>
+        			</div>
+        			<!-- End Skills -->
+
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================Services Area =================-->
+        <section class="feature_area p_120" id="services">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>offerings to my clients</h2>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-4 col-md-6 card_bg">
+        				<div class="feature_item shadow">
+        					<img src="img/nav_icon/monitor.png" width="60" class="mb-4">
+        					<h4>Web Design</h4>
+        					<p class="text-justify">A well-designed website can help you form a good impression on your prospective customers. It can also help you nurture your leads and get more conversions.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6 card_bg">
+        				<div class="feature_item shadow">
+        					<img src="img/nav_icon/html.png" width="60" class="mb-4">
+        					<h4>Web development</h4>
+        					<p class="text-justify">Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6 card_bg">
+        				<div class="feature_item shadow">
+        					<img src="img/nav_icon/wireframe.png" width="60" class="mb-4">
+        					<h4>Digital Marketing</h4>
+        					<p class="text-justify">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        <!--================Projects Area =================-->
+        <section class="projects_area p_120" id="projects">
+        	<div class="container">
+        		<div class="main_title">
+					<h2>My Projects</h2>
+				</div>
+        		<div class="projects_fillter">
+					<ul class="filter list">
+						<li class="active" data-filter="*"><a href="#">All Categories</a></li>
+						<li data-filter=".web_development"><a href="#">Web Development</a></li>
+						<li data-filter=".web_design"><a href="#">Web Design</a></li>
+						<li data-filter=".java"><a href="#">JAVA Projects</a></li>
+					</ul>
+				</div>
+				<div class="projects_inner row">
+					<!-- Start Web Development -->
+					<div class="web_development">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Traffic_Offence_Management_System" target="_blank"><img src="img/projects/TOMS.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Traffic_Offence_Management_System" class="text-dark" target="_blank">Traffic Offence Management System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Traffic_Offence_Management_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Smart_Agro_and_Entrepreneurship" target="_blank"><img src="img/projects/sae.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Smart_Agro_and_Entrepreneurship" class="text-dark" target="_blank">Smart Agro and Entrepreneurship <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Smart_Agro_and_Entrepreneurship" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/BD_Service_Management" target="_blank"><img src="img/projects/bsm.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/BD_Service_Management" class="text-dark" target="_blank">BD Service Management <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/BD_Service_Management" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Food_Recipe_Branding" target="_blank"><img src="img/projects/frbs.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Food_Recipe_Branding" class="text-dark" target="_blank">Food Recipe Selling System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Food_Recipe_Branding" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Event_Planning_and_Catering_System" target="_blank"><img src="img/projects/epacs.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Event_Planning_and_Catering_System" class="text-dark" target="_blank">Event Planning and Catering Service <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Event_Planning_and_Catering_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Blood_Donation_And_Ambulance_Service" target="_blank"><img src="img/projects/bdas.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Blood_Donation_And_Ambulance_Service" class="text-dark" target="_blank">Blood Donation and Ambulance Service <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Blood_Donation_And_Ambulance_Service" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Online_Attendance_System" target="_blank"><img src="img/projects/oas.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Online_Attendance_System" class="text-dark" target="_blank">Online Attendance System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Online_Attendance_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Smart_City_Info_System" target="_blank"><img src="img/projects/scis.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Smart_City_Info_System" class="text-dark" target="_blank">Smart City Information System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Smart_City_Info_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Volunteer_Management_System" target="_blank"><img src="img/projects/vms.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Volunteer_Management_System" class="text-dark" target="_blank">Volunteer Management System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Volunteer_Management_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Binimoy_eCommerce" target="_blank"><img src="img/projects/binimoy.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Binimoy_eCommerce" class="text-dark" target="_blank">E-Commerce Website (Binimoy E-Commerce) <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Binimoy_eCommerce" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/E-Medicine" target="_blank"><img src="img/projects/e_medicine.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/E-Medicine" class="text-dark" target="_blank">E-Medishop <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/E-Medicine" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Art_Of_Hair" target="_blank"><img src="img/projects/aoh.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Art_Of_Hair" class="text-dark" target="_blank">Online Haircut Appointment Booking System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Art_Of_Hair" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Service_Ads_System" target="_blank"><img src="img/projects/sas.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Service_Ads_System" class="text-dark" target="_blank">Service Ads System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Service_Ads_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Cleaning_Service_System" target="_blank"><img src="img/projects/cleaning_service.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Cleaning_Service_System" class="text-dark" target="_blank">House, Office, Vehicle Cleaning Service System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Front-end: </strong><span>HTML5, CSS3, Bootstrap4, jQuery, JavaScript</span>
+								    	<br>
+								    	<strong>Back-end: </strong><span>PHP, MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Cleaning_Service_System" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+
+
+
+
+						</div>
+					</div>
+					<!-- End Web Development -->
+
+					<!-- Start Web Design -->
+					<div class="web_design">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://ajij98.github.io/LoopLab3/" target="_blank"><img src="img/projects/looplab.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://ajij98.github.io/LoopLab3/" class="text-dark" target="_blank">LoopLab <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Languages and Frameworks: </strong><span>HTML5, CSS3, Bootstrap4</span>
+								    </p>
+								    <a href="https://ajij98.github.io/LoopLab3/" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://ajij98.github.io/Mizuxe2/" target="_blank"><img src="img/projects/mizuxe.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://ajij98.github.io/Mizuxe2/" class="text-dark" target="_blank">Mizuxe <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Languages and Frameworks: </strong><span>HTML5, CSS3, Bootstrap4</span>
+								    </p>
+								    <a href="https://ajij98.github.io/Mizuxe2/" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://ajij98.github.io/Mizuxe2/" target="_blank"><img src="img/projects/portfolio.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://ajij98.github.io/Mizuxe2/" class="text-dark" target="_blank">Portfolio <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Languages and Frameworks: </strong><span>HTML5, CSS3, Bootstrap4, JavaScript</span>
+								    </p>
+								    <a href="https://ajij98.github.io/Mizuxe2/" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- End Web Design -->
+
+					<!-- Start Java -->
+					<div class="java">
+						<div class="row">
+							
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Super-Shop-Management-System-Java" target="_blank"><img src="img/projects/supershop.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Super-Shop-Management-System-Java" class="text-dark" target="_blank">Super Shop Management System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Language: </strong><span>JAVA</span>
+								    	<br>
+								    	<strong>Database: </strong><span>MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Super-Shop-Management-System-Java" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Hospital_Management_System_Java" target="_blank"><img src="img/projects/hms.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Hospital_Management_System_Java" class="text-dark" target="_blank">Hospital Management System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Language: </strong><span>JAVA</span>
+								    	<br>
+								    	<strong>Database: </strong><span>MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Hospital_Management_System_Java" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Car_Rent_System_Java" target="_blank"><img src="img/projects/car_rent.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Car_Rent_System_Java" class="text-dark" target="_blank">Car Rent System <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Language: </strong><span>JAVA</span>
+								    	<br>
+								    	<strong>Database: </strong><span>MySQL</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Car_Rent_System_Java" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Calculator_Java" target="_blank"><img src="img/projects/calculator.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Calculator_Java" class="text-dark" target="_blank">Calculator <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Language: </strong><span>JAVA</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Calculator_Java" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="card mb-4" style="width: 20rem;">
+								  <a href="https://github.com/Ajij98/Digital_Clock_Java" target="_blank"><img src="img/projects/digital_clock.PNG" class="card-img-top" alt="..."></a>
+								  <div class="card-body">
+								    <h5 class="card-title"><a href="https://github.com/Ajij98/Digital_Clock_Java" class="text-dark" target="_blank">Digital Clock <small><i class="fa fa-external-link text-primary"></i></small></a></h5>
+								    <p style="font-size: 13px;">
+								    	<strong>Language: </strong><span>JAVA</span>
+								    </p>
+								    <a href="https://github.com/Ajij98/Digital_Clock_Java" target="_blank" class="genric-btn info-border radius">Live Preview</a>
+								  </div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+					<!-- End Java -->
+				</div>
+        	</div>
+        </section>
+        <!--================End Projects Area =================-->
+
+
+        <!--================Contact Area =================-->
+        <section class="feature_area p_120" id="contact">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Contact Me</h2>
+        		</div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-3">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-map-marker"></i>
+                                <h6>Al-Falah Goli, 2 No. Gate, Chattogram</h6>
+                                <p>Bangladesh</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="#">(+88) 01831-144838</a></h6>
+                                <p>Sat to Fri 9am to 10pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="#">abdulajij.pciu@gmail.com</a></h6>
+                                <p>Send me your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.670715883904!2d91.8182610144303!3d22.3660589461578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd888a6d6e2dd%3A0xab27bb9af3b791c7!2sHajee%20Nur%20Ahmed%20Road%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1667553784297!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        
+        <!--================Footer Area =================-->
+        <footer class="footer_area p_120">
+        	<div class="container">
+        		<div class="row footer_inner">
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget ab_widget">
+        					<div class="f_title">
+        						<h3>About Me</h3>
+        					</div>
+        					<p><sup><i class="fa fa-quote-left"></i></sup> I'm a Full Stack Web developer responsible for developing and maintaining applications using the latest web technologies. <sub><i class="fa fa-quote-right"></i></sub></p>
+        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="index.html" target="_blank">Md Abdul Ajij</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
+        				</aside>
+        			</div>
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget news_widget">
+        					<div class="f_title">
+        						<h3>Useful Links</h3>
+        					</div>
+        					<p class="mb-0"><a class="nav-link text-light" href="index.html">Home</a></p>
+        					<p class="mb-0"><a class="nav-link text-light" href="#about" >About</a></p>
+        					<p class="mb-0"><a class="nav-link text-light" href="#about" >Skills</a></p>
+        					<p class="mb-0"><a class="nav-link text-light" href="#services">Services</a></p>
+        					<p class="mb-0"><a class="nav-link text-light" href="#projects" >Projects</a></p>
+        					<p class="mb-0"><a class="nav-link text-light" href="#contact">Contact</a></p>
+        				</aside>
+        			</div>
+        			<div class="col-lg-2">
+        				<aside class="f_widget social_widget">
+        					<div class="f_title">
+        						<h3>Follow Me</h3>
+        					</div>
+        					<ul class="list">
+        						<li><a href="https://web.facebook.com/profile.php?id=100009803343391" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="https://www.linkedin.com/in/abdul-ajij-025930252/" target="_blank" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+        						<li><a href="https://github.com/Ajij98?tab=repositories" target="_blank" title="github"><i class="fa fa-github"></i></a></li>
+        					</ul>
+        				</aside>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
